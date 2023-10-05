@@ -1,16 +1,20 @@
 import React from "react";
 import PlanetCard from "./PlanetCard";
+import Search from "./Search";
 
 function Home() {
   return (
-    <div className="home">
-      <PlanetCard />
-      <PlanetCard />
-      <PlanetCard />
-      <PlanetCard />
-      <PlanetCard />
-      <PlanetCard />
-    </div>
+    <>
+      <Search />
+      <div className="home">
+        <PlanetCard />
+        <PlanetCard />
+        <PlanetCard />
+        <PlanetCard />
+        <PlanetCard />
+        <PlanetCard />
+      </div>
+    </>
   );
 }
 

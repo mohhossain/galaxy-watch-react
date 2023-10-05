@@ -19,16 +19,16 @@ function PlanetCard() {
         alt="Earth"
       />
       <h2 style={textStyle}>Earth</h2>
+      <p>Visitor: 900</p>
 
       <button
         onClick={() => {
-          navigate("/planet/1");
+          navigate("/planet/1"); // change the id
         }}
       >
-        View
+        Visit 🚀
       </button>
-      <button>Edit</button>
-      <button style={{ color: "red" }}>Delete</button>
+      <button style={{ color: "red" }}>Destroy 💥</button>
     </div>
   );
 }
